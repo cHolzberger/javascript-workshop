@@ -1,0 +1,37 @@
+@font-family: Gill Sans;
+@titlecolor: rgb(83,83,83);
+@textcolor: rgb(83,83,83);
+
+div.slide {
+h1 {
+	font-family: @font-family;
+ 	font-weight: lighter;
+	text-align: center;
+	color: @titlecolor;
+	margin: .7em .7em;
+	padding: 0 0;
+}
+
+> * {
+	padding: .5em 2em;
+}
+
+.initial_prompt {
+	.help {
+		border: 1px solid white;
+	}
+}
+
+
+	@inner: rgb(240,240,245);
+	@outer: rgb(217,220,227);
+	background-color: @inner;
+background-image: -moz-radial-gradient(50% 50%, ellipse contain, @inner, @outer 150%);
+background-image: -webkit-radial-gradient(50% 50%, ellipse contain, @inner, @outer 150%);
+background-image: -o-radial-gradient(50% 50%, ellipse contain, #828282, #66666b 150%);
+background-image: -ms-radial-gradient(50% 50%, ellipse contain, #828282, #66666b 150%);
+background-image: radial-gradient(50% 50%, ellipse contain, #828282, #66666b 150%);
+	color: @textcolor;
+	font-family: @font-family;
+	font-weight: lighter;
+}

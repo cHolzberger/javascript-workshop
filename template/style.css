@@ -1,0 +1,25 @@
+div.slide {
+  background-color: #f0f0f5;
+  background-image: -moz-radial-gradient(50% 50%, ellipse contain, #f0f0f5, #d9dce3 150%);
+  background-image: -webkit-radial-gradient(50% 50%, ellipse contain, #f0f0f5, #d9dce3 150%);
+  background-image: -o-radial-gradient(50% 50%, ellipse contain, #828282, #66666b 150%);
+  background-image: -ms-radial-gradient(50% 50%, ellipse contain, #828282, #66666b 150%);
+  background-image: radial-gradient(50% 50%, ellipse contain, #828282, #66666b 150%);
+  color: #535353;
+  font-family: Gill Sans;
+  font-weight: lighter;
+}
+div.slide h1 {
+  font-family: Gill Sans;
+  font-weight: lighter;
+  text-align: center;
+  color: #535353;
+  margin: .7em .7em;
+  padding: 0 0;
+}
+div.slide > * {
+  padding: .5em 2em;
+}
+div.slide .initial_prompt .help {
+  border: 1px solid white;
+}
