@@ -25,8 +25,12 @@
 
 ## Dojo DOM und Modules
 [DOM](http://dojotoolkit.org/documentation/tutorials/1.10/dom_functions/)
+
 [AMD](http://dojotoolkit.org/documentation/tutorials/1.9/modules/)
+
 [Events](http://dojotoolkit.org/documentation/tutorials/1.10/events/)
+
+[Aspect](http://livedocs.dojotoolkit.org/dojo/aspect)
 
 ## Mediator Pattern
 <p style="text-align: center;">

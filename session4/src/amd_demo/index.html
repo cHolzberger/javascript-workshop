@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Demo: DOM Functions</title>
+				<script type="text/javascript">
+				dojoConfig = {
+    			packages: [
+        		{ name: "app", location: "http://projekte.localhost/MosaikSoftware/JavaScriptWorkshop/session4/src/amd_demo/app" }
+					]
+				};
+				</script>
+        <script src="http://ajax.googleapis.com/ajax/libs/dojo/1.10.1/dojo/dojo.js"
+            data-dojo-config="async: true">
+        </script>
+        <script>
+            require(["app/list"], function(list) {
+								
+            });
+        </script>
+    </head>
+    <body>
+        <ul id="list">
+            <li id="one">One</li>
+            <li id="two">Two</li>
+            <li id="three">Three</li>
+            <li id="four">Four</li>
+            <li id="five">Five</li>
+        </ul>
+    </body>
+</html>

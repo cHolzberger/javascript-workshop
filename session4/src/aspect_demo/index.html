@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Demo: DOM Functions</title>
+        <script src="http://ajax.googleapis.com/ajax/libs/dojo/1.10.1/dojo/dojo.js"
+            data-dojo-config="async: true">
+        </script>
+        <script>
+            define(["dojo/dom","dojo/aspect","dojo/on","dojo/_base/lang","dojo/domReady!"], function(dom, asp, on, lang) {
+							var btnCb = {
+								btn: dom.byId("clickBtn"),
+								clicked: function () {
+									console.log("clicked");
+								}
+							}
+						
+							on(btnCb.btn,"click", lang.hitch(btnCb, "clicked")  );
+						 	return btnCb;
+							});
+
+        </script>
+				<script >
+						require ( ["btnBsp", "dojo/aspect"],  function (btnCb, asp) {  
+							asp.before(btnCb, "clicked", function () {
+								alert("WUHU");
+								});
+					}
+				</script>   
+ </head>
+    <body>
+   		<button id="clickBtn">BUTTON!!!!</button>
+	 	</body>
+</html>
