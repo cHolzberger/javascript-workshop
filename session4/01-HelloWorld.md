@@ -38,6 +38,7 @@
 ## Test-App
 
 Vorschlag: Eine Chat GUI, 3 Teile:
+
 * Input
 * Text
 * Buddyliste
